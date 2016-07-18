@@ -14,10 +14,12 @@ import Loadimage from 'react-native-loadimage';
 export default class extends Component {
 render(){
 return(
-<View style={styles.list}>
-<Loadimage style={styles.pic} url='pic.png'/>
-<Text style={styles.title}>test</Text>
+</pre>
+"<"View style={styles.list} ">"
+    <Loadimage style={styles.pic} url='pic.png'/>
+    <Text style={styles.title}>test</Text>
 </View>
+<pre>
 )
 }
 
@@ -35,4 +37,4 @@ height: 180
 
 version
 -----------------------------------------------------
-v0.0.7 update
+v0.0.8 update
